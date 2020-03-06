@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/red-juliechang/JuliesWeb#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
     "bootstrap": "^4.4.1",
     "gulp": "^4.0.2"
   },

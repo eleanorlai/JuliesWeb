@@ -45,4 +45,48 @@ gulp prod:css
 
 gulp prod:css:common
 gulp prod:js:common
+
+------
+## 資料夾架構
+
+JULIESWEB/
+├── httpdocs/
+│   ├── assests
+│   ├──  ├── css
+│   ├──  ├── img
+│   ├──  ├── js
+│   ├──  ├── webfonts
+│   ├── v2-demo (build出的頁面)
+├── node_modules/ (不上傳的大量外掛)
+├── src/ (不上傳的大量外掛)
+│   ├── css
+│   ├── html
+│   ├──  ├── partials
+│   ├──  ├── ├──footer.html
+│   ├──  ├── ├──head.html
+│   ├──  ├── ├──header.html
+│   ├──  ├── ├──menu.html
+│   ├──  ├── ├──item.html
+│   ├──  ├── ├──footer.html
+│   ├──  ├── home.html
+│   ├── img
+│   ├── js
+│   ├── scss
+│   ├──  ├── components
+│   ├──  ├── ├──_base.html
+│   ├──  ├── ├──_carousel.html
+│   ├──  ├── ├──_footer.html
+│   ├──  ├── ├──_header.html
+│   ├──  ├── ├──_header.html
+│   ├──  ├── ├──_playlist.html
+│   ├──  ├── app.sass
+│   ├──  ├── bootstrap-custom.scss
+├── gulpfile.js (gulp/task指令)
+├── package-lock.json
+├── package.json
+├── README.md (說明)
+├── .gitignore (可以忽略不上傳的套件)
+└── .npmrc
+
+
     
