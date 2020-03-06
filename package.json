@@ -1,0 +1,23 @@
+{
+  "name": "juliesweb",
+  "version": "1.0.0",
+  "description": "npm install gulp-clean-css gulp-uglify gulp-concat gulp-rename gulp-sass gulp-load-plugins gulp-autoprefixer gulp-plumber del gulp-rsync gulp-file-include --save-dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-juliechang/JuliesWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/red-juliechang/JuliesWeb/issues"
+  },
+  "homepage": "https://github.com/red-juliechang/JuliesWeb#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "gulp": "^4.0.2"
+  }
+}
