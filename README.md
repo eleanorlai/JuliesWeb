@@ -31,7 +31,7 @@
 -----
 # bootstrap 4.4
     * https://getbootstrap.com/docs/4.4/getting-started/theming/
-    ```npm install bootstrap --save```
+    npm install bootstrap --save
 -----
 #開發
 * 在本機瀏覽器直接開啟 httpdocs/v2-demo/home.html
@@ -44,12 +44,13 @@ gulp prod:css
 加入新的第三方 CSS src/css/common/ 或 JS src/js/common/ 檔案後，將檔案輸出至 httpdocs/assets/:
 
 ```gulp prod:css:common
-gulp prod:js:common```
+gulp prod:js:common
 
 ------
 ## 資料夾架構
 
-```JULIESWEB/
+```
+JULIESWEB/
 ├── httpdocs/
 │   ├── assests
 │   ├──  ├── css
@@ -86,7 +87,7 @@ gulp prod:js:common```
 ├── package.json
 ├── README.md (說明)
 ├── .gitignore (可以忽略不上傳的套件)
-└── .npmrc```
-
+└── .npmrc
+```
 
     
